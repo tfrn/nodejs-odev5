@@ -1,6 +1,3 @@
-# nodejs-odev5
-patika.dev nodejs dersi 5. ödevi
-```js
 const http = require('http');
 // createServer metodunu kullanacağız.
 const server = http.createServer((req, res)=> {
@@ -30,4 +27,4 @@ server.listen(port, () => {
   console.log(`Sunucu port ${port} de başlatıldı.`);
 });
 
-```
+
